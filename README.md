@@ -33,7 +33,7 @@ These are the specific files: pandas, streamlit, geopy, pytest, numpy
 
 4. Run the Streamlit UI
 The main application file is main.py. To start the Streamlit app, run:
-- streamlit run app.py
+- streamlit run app/main.py
 - This will open your default web browser where you can interact with the Fuel Siphonage Detection System. You will be able to:
   1. Upload CSV or Excel files containing vehicle telemetry data.
   2.  See a preview of the uploaded data (first 5 rows).
