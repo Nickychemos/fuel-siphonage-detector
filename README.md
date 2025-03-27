@@ -28,9 +28,8 @@ You can now open the project in your local computer using a code editor such as 
 Ensure that you have pip updated, then install the required packages using the provided requirements.txt file:
 - pip install --upgrade pip
 - pip install -r requirements.txt
-These are the specific files: pandas, streamlit, geopy, pytest, numpy
 
-4. Run the Streamlit UI
+# Run the Streamlit UI
 The main application file is main.py. To start the Streamlit app, run:
 - streamlit run app/main.py
 - This will open your default web browser where you can interact with the Fuel Siphonage Detection System. You will be able to:
@@ -39,18 +38,18 @@ The main application file is main.py. To start the Streamlit app, run:
   3. View detected siphonage events based on the rule-based logic after uploading a file.
   4. Download the processed results.
 
-5. Testing the Code
+# Testing the Code
 - To ensure that the detection logic works as expected, you can run the unit tests located in the test_detector.py file on your terminal using: *pytest test_detector.py*
 - This will run basic test cases to validate the rule-based detection in detector.py
 - If an output of 100% is achieved, it means that all test cases collected passed successfully.
 
-6. Example Output
+# Example Output
 - When you run the Streamlit UI and upload a properly formatted *CSV* file, you might see such an output:
 ![image](https://github.com/user-attachments/assets/6959ab4a-d69c-4e1b-830f-d62895e06471)
 
 - Here, only the rows where siphonage is detected will be shown as seen in the siponage column where all outputs are 'Yes'
 
-7. Project Files Overview
+# Project Files Overview
 - *app.py*:
 The Streamlit app that provides a UI for data upload, processing, and result display.
 - *detector.py*:
