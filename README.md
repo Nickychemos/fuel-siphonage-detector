@@ -28,7 +28,6 @@ You can now open the project in your local computer using a code editor such as 
 Ensure that you have pip updated, then install the required packages using the provided requirements.txt file:
 - pip install --upgrade pip
 - pip install -r requirements.txt
-These are the specific files: pandas, streamlit, geopy, pytest, numpy
 
 # Run the Streamlit UI
 The main application file is main.py. To start the Streamlit app, run:
