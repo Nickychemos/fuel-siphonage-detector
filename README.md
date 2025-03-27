@@ -10,8 +10,8 @@ The aim of this project is to build a Python pipeline to detect fuel siphonage e
 # How to install and run the code locally
 
 *Prerequisites*
-a) Python 3.7+ installed on your system.
-b) A command-line interface (Terminal on macOS/Linux or Command Prompt/PowerShell on Windows).
+- a) Python 3.7+ installed on your system.
+- b) A command-line interface (Terminal on macOS/Linux or Command Prompt/PowerShell on Windows).
 
 *Steps to take*
 1. Clone the Repository
