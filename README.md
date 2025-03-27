@@ -36,7 +36,7 @@ The main application file is main.py. To start the Streamlit app, run:
   1. Upload CSV or Excel files containing vehicle telemetry data.
   2.  See a preview of the uploaded data (first 5 rows).
   3. View detected siphonage events based on the rule-based logic after uploading a file.
-  4. Download the processed results.
+  4. Download the processed results. 
 
 # Testing the Code
 - To ensure that the detection logic works as expected, you can run the unit tests located in the test_detector.py file on your terminal using: *pytest test_detector.py*
