@@ -42,7 +42,7 @@ The main application file is main.py. To start the Streamlit app, run:
 5. Testing the Code
 - To ensure that the detection logic works as expected, you can run the unit tests located in the test_detector.py file on your terminal using: *pytest test_detector.py*
 - This will run basic test cases to validate the rule-based detection in detector.py
-- If an output of 100% is acheved, it means that all test cases collected passed successfully.
+- If an output of 100% is achieved, it means that all test cases collected passed successfully.
 
 6. Example Output
 - When you run the Streamlit UI and upload a properly formatted *CSV* file, you might see such an output:
