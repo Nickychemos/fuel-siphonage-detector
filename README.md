@@ -14,8 +14,7 @@ The aim of this project is to build a Python pipeline to detect fuel siphonage e
 - b) A command-line interface (Terminal on macOS/Linux or Command Prompt/PowerShell on Windows).
 
 *Steps to take*
-1. Clone the Repository
-Open windows powershell and cd to your preferred project location
+1. Clone the Repository by opening windows powershell and cd to your preferred project location
 - eg. Desktop--> 'cd Desktop'
 Once in the Desktop, clone the repository using:
 - git clone https://github.com/Nickychemos/fuel-siphonage-detector.git
